@@ -33,6 +33,10 @@
             <li><a class="nav-link link" href="">Contacts</a></li>
           </ul>
         </nav>
+        <button class="mobile-menu-open-btn" data-menu-open type="button">
+        <svg class="mobile-menu-burger-icon" width="32" height="22">
+          <use href ="./images/sprite.svg#burger-icon"></use></svg>
+        </button>
         <address>
           <ul class="address-list list">
             <li class="address-item">
@@ -48,19 +52,82 @@
           </ul>
         </address>
       </div>
+<!-- mobile menu -->
+<div class="mobile-menu is-open" data-menu>
+  <div class="mobile-menu-container container">
+<button type="button" class="mobile-menu-close-btn" data-menu-close>
+<svg class="close-btn-icon" width="8" height="8">
+  <use href="./images/sprite.svg#icon-close"></use>
+</svg>
+</button>
+<ul class="mobile-menu-list list">
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link link current" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile-menu-item"><a class="mobile-menu-link link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+      
+          <ul class="address-list list">
+            <li class="tel-item">
+              <a class="tel-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a>
+            </li>
+            <li class="mail-item">
+              <a class="mail-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a>
+            </li>
+          </ul>
+        <ul class="social-media-list list">
+                  <li class="social-media-item">
+                    <a class="social-media-link" href="">
+                      <svg class="social-media-icon">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a class="social-media-link" href="">
+                      <svg class="social-media-icon">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a class="social-media-link" href="">
+                      <svg class="social-media-icon">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a class="social-media-link" href="">
+                      <svg class="social-media-icon">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+</div>
+</div>
+
+
     </header>
     <main>
       <!-- Hero-section -->
-      <section class="hero-section">
+      <!-- <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button data-modal-open class="hero-btn btn" type="button">
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- Features -->
-      <section class="features-section section">
+      <!-- <section class="features-section section">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-list list">
@@ -115,8 +182,8 @@
           </ul>
         </div>
       </section>
-      <!-- Services -->
-      <section class="services-section section">
+      Services
+       <section class="services-section section">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="services-list list">
@@ -146,9 +213,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Team -->
-      <section class="team-section section">
+      <!-- <section class="team-section section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list list">
@@ -322,9 +389,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> --> 
       <!-- Customers -->
-      <section class="customers-section section">
+      <!-- <section class="customers-section section">
         <div class="container">
           <h2 class="section-title">Customers</h2>
           <ul class="customers-list list">
@@ -372,10 +439,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- Footer -->
-    <footer class="footer-section">
+    <!-- <footer class="footer-section">
       <div class="container footer-container">
         <div class="footer-left-side">
           <a class="logo link" href="./index.html"
@@ -419,10 +486,10 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
         <!-- form -->
-        <form class="footer-form">
+        <!-- <form class="footer-form">
           <p class="footer-form-title">Subscribe</p>
           <div class="footer-form-field">
             <input type="email" class="form-input-mail" placeholder="E-mail" />
@@ -444,10 +511,10 @@
           <svg class="close-btn-icon">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
-        </button>
+        </button> -->
 
         <!-- form -->
-        <p class="modal-form-title">
+        <!-- <p class="modal-form-title">
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form">
@@ -532,7 +599,7 @@
         </form>
       </div>
     </div>
-
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
