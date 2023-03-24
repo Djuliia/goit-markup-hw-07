@@ -34,8 +34,9 @@
           </ul>
         </nav>
         <button class="mobile-menu-open-btn" data-menu-open type="button">
-        <svg class="mobile-menu-burger-icon" width="32" height="22">
-          <use href ="./images/sprite.svg#burger-icon"></use></svg>
+          <svg class="mobile-menu-burger-icon" width="32" height="22">
+            <use href="./images/sprite.svg#burger-icon"></use>
+          </svg>
         </button>
         <address>
           <ul class="address-list list">
@@ -52,82 +53,85 @@
           </ul>
         </address>
       </div>
-<!-- mobile menu -->
-<div class="mobile-menu is-open" data-menu>
-  <div class="mobile-menu-container container">
-<button type="button" class="mobile-menu-close-btn" data-menu-close>
-<svg class="close-btn-icon" width="8" height="8">
-  <use href="./images/sprite.svg#icon-close"></use>
-</svg>
-</button>
-<ul class="mobile-menu-list list">
+      <!-- mobile menu -->
+      <div class="mobile-menu is-open" data-menu>
+        <div class="mobile-menu-container container">
+          <button type="button" class="mobile-menu-close-btn" data-menu-close>
+            <svg class="close-btn-icon" width="8" height="8">
+              <use href="./images/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu-list list">
             <li class="mobile-menu-item">
-              <a class="mobile-menu-link link current" href="./index.html">Studio</a>
+              <a class="mobile-menu-link link" href="./index.html">Studio</a>
             </li>
             <li class="mobile-menu-item">
-              <a class="mobile-menu-link link" href="./portfolio.html">Portfolio</a>
+              <a class="mobile-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
-            <li class="mobile-menu-item"><a class="mobile-menu-link link" href="">Contacts</a></li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link link" href="">Contacts</a>
+            </li>
           </ul>
-        </nav>
-      
+
           <ul class="address-list list">
             <li class="tel-item">
               <a class="tel-link link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a>
+                >+11 (000) 111-11-11</a
+              >
             </li>
             <li class="mail-item">
               <a class="mail-link link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a>
+                >info@devstudio.com</a
+              >
             </li>
           </ul>
-        <ul class="social-media-list list">
-                  <li class="social-media-item">
-                    <a class="social-media-link" href="">
-                      <svg class="social-media-icon">
-                        <use href="./images/sprite.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="social-media-link" href="">
-                      <svg class="social-media-icon">
-                        <use href="./images/sprite.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="social-media-link" href="">
-                      <svg class="social-media-icon">
-                        <use href="./images/sprite.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="social-media-link" href="">
-                      <svg class="social-media-icon">
-                        <use href="./images/sprite.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-</div>
-</div>
-
-
+          <ul class="social-media-list list mobile-media-list">
+            <li class="social-media-item">
+              <a class="social-media-link" href="">
+                <svg class="social-media-icon">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a class="social-media-link" href="">
+                <svg class="social-media-icon">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a class="social-media-link" href="">
+                <svg class="social-media-icon">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a class="social-media-link" href="">
+                <svg class="social-media-icon">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <!-- Hero-section -->
-      <!-- <section class="hero-section">
-        <div class="container">
+      <section class="hero-section banner">
+        <div class="container hero-title-wrap">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button data-modal-open class="hero-btn btn" type="button">
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- Features -->
-      <!-- <section class="features-section section">
+      <section class="features-section section">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-list list">
@@ -182,13 +186,13 @@
           </ul>
         </div>
       </section>
-      Services
-       <section class="services-section section">
+      <!-- Services -->
+      <section class="services-section section">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="services-list list">
             <li class="services-item">
-              <img
+              <img srcset="./images/monitor.jpg 1x, ./images/monitor@2x.jpg 2x"
                 src="./images/monitor.jpg"
                 alt="Monitor"
                 width="360"
@@ -196,7 +200,7 @@
               />
             </li>
             <li class="services-item">
-              <img
+              <img srcset="./images/application.jpg 1x, ./images/applications@2x.jpg 2x"
                 src="./images/application.jpg"
                 alt="Applications in the phone"
                 width="360"
@@ -204,7 +208,7 @@
               />
             </li>
             <li class="services-item">
-              <img
+              <img srcset="./images/phone.jpg 1x, ./images/phone@2x.jpg 2x"
                 src="./images/phone.jpg"
                 alt="Phone in hand"
                 width="360"
@@ -213,19 +217,21 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- Team -->
-      <!-- <section class="team-section section">
+      <section class="team-section section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
               <img
-                src="./images/mark-guerrero.jpg"
+                srcset="./images/team/mark.jpg 1x, ./images/team/mark@2x.jpg"
+                src="./images/team/mark.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
               />
+
               <div class="card-desc">
                 <h3 class="team-title">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
@@ -263,7 +269,8 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/tom-ford.jpg"
+                srcset="./images/team/tom.jpg 1x, ./images/team/tom@2x.jpg 2x"
+                src="./images/team/tom.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -305,10 +312,14 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/camila-garcia.jpg"
-                alt="Camila Garcia"
+                srcset="
+                  ./images/team/camila.jpg    1x,
+                  ./images/team/camila@2x.jpg 2x
+                "
+                class="team-employee"
+                src="./images/team/camila.jpg"
+                alt="Camila Garciad"
                 width="264"
-                height="260"
               />
               <div class="card-desc">
                 <h3 class="team-title">Camila Garcia</h3>
@@ -347,11 +358,13 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/daniel-wilson.jpg"
+                srcset="./images/team/daniel.jpg 1x., ./images/team/daniel@2x.jpg 2x"
+                src="./images/team/daniel.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
               />
+
               <div class="card-desc">
                 <h3 class="team-title">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
@@ -389,9 +402,9 @@
             </li>
           </ul>
         </div>
-      </section> --> 
+      </section>
       <!-- Customers -->
-      <!-- <section class="customers-section section">
+      <section class="customers-section section">
         <div class="container">
           <h2 class="section-title">Customers</h2>
           <ul class="customers-list list">
@@ -439,57 +452,59 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- Footer -->
-    <!-- <footer class="footer-section">
+    <footer class="footer-section">
       <div class="container footer-container">
-        <div class="footer-left-side">
-          <a class="logo link" href="./index.html"
-            >Web<span class="logo-footer">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing &amp; growth solutions.
-          </p>
+        <div class="info-media-wrap">
+          <div class="footer-info">
+            <a class="footer-logo logo link" href="./index.html"
+              >Web<span class="logo-footer">Studio</span></a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing &amp; growth solutions.
+            </p>
+          </div>
+
+          <div class="footer-social-media-wrap">
+            <p class="media-text">Social media</p>
+            <ul class="social-media-list footer-media-list list">
+              <li class="social-media-item">
+                <a class="social-media-link footer-media-link" href="">
+                  <svg class="social-media-icon footer-media-icon">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a class="social-media-link footer-media-link" href="">
+                  <svg class="social-media-icon footer-media-icon">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a class="social-media-link footer-media-link" href="">
+                  <svg class="social-media-icon footer-media-icon">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a class="social-media-link footer-media-link" href="">
+                  <svg class="social-media-icon footer-media-icon">
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div class="footer-social-media-wrap">
-          <p class="media-text">Social media</p>
-          <ul class="social-media-list list">
-            <li class="social-media-item">
-              <a class="social-media-link footer-media-link" href="">
-                <svg class="social-media-icon footer-media-icon">
-                  <use href="./images/sprite.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a class="social-media-link footer-media-link" href="">
-                <svg class="social-media-icon footer-media-icon">
-                  <use href="./images/sprite.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a class="social-media-link footer-media-link" href="">
-                <svg class="social-media-icon footer-media-icon">
-                  <use href="./images/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a class="social-media-link footer-media-link" href="">
-                <svg class="social-media-icon footer-media-icon">
-                  <use href="./images/sprite.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div> -->
-
         <!-- form -->
-        <!-- <form class="footer-form">
+        <form class="footer-form">
           <p class="footer-form-title">Subscribe</p>
           <div class="footer-form-field">
             <input type="email" class="form-input-mail" placeholder="E-mail" />
@@ -511,10 +526,10 @@
           <svg class="close-btn-icon">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
-        </button> -->
+        </button>
 
         <!-- form -->
-        <!-- <p class="modal-form-title">
+        <p class="modal-form-title">
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form">
@@ -599,7 +614,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
